@@ -13,7 +13,7 @@ export default function ProductsClient() {
 
   return (
     <div className="grid grid-cols-3 gap-4 p-6">
-      {data.map((product) => (
+      {data && data.map((product) => (
         <div key={product.id} className="border p-4 rounded">
           <h3>{product.title}</h3>
           <p>{product.price} ₺</p>
