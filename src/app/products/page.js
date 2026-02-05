@@ -1,5 +1,5 @@
 export const revalidate=60;
-import PoruductsClient from "../../components/productsClient"
+import ProductsClient from "../../components/productsClient"
 export default function Page(){
-    return <PoruductsClient/>
+    return <ProductsClient/>
 }
